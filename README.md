@@ -1,4 +1,12 @@
 # Flight Fare Prediction
+### Importing the required libraries
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
 ### Training data
 - Reading the data
 - Checking the shape of dataset
