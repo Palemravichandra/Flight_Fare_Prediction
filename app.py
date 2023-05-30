@@ -289,10 +289,17 @@ with col3:
         Trujet = 0
 
     # Total Stops
+    #st.button("First button")
+    
+    st.markdown("****")
+    st.text("")
+    st.text("")
+    #st.button("Second button")
     st.subheader(':violet[STOPS]')
     data=['0','1','2','3','4']
     Total_stops = int(st.selectbox('Select No.of Stops',data))
     # print(Total_stops)
+    #st.markdown("******")
 submit=st.button('SUBMIT')
 if submit:
     prediction=model.predict([[
