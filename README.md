@@ -7,28 +7,28 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
-### Training data
+## Training data
 - Reading the data
 - Checking the shape of dataset
 - The dataset is too large and null values values are less than 1% so we can drop them
 - Checking for the shape after dropping the null values
-# EDA
+#### EDA
 - Converting the datetime columns from string format into datetime format
 - Creating the duration feature
-# Encoding
+#### Encoding
 - Converting categorical features into numerical values called encoding
 - Converting Nominal categorical features into numeric values by using **oneHotEncoding** technique
 - Converting Ordinal categorical features into numeric values by using **LabelEncoder** technique
 - Dropping un neccessary columns
-### Testing data
+## Testing data
 - All the above steps were repeted for testing data also
-### Feature Importance
+## Feature Importance
 - Finding the feature importance by using Heatmap and ExtratreeRegressor
-### Model Building
+## Model Building
 - Importing the model from sklearn
 - Training the model with training data 
 - test the model with test data
 - creating pickle file for model
-### App
+## App
 - Creating the app using Streamlit
 - Deploying the app
