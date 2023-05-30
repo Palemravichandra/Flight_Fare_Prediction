@@ -6,8 +6,8 @@ import datetime
 #from sklearn.ensemble import RandomForestRegressor
 
 # lpoading the model to the app
- with open(r"flight_rf.pkl", 'rb') as file:
-        model = pickle.load(file)
+with open(r"flight_rf.pkl", 'rb') as file:
+ model = pickle.load(file)
 
 st.markdown("<h1 style='text-align: center; color:#0000FF;'>FLIGHT FARE PREDICTION APP</h1>", unsafe_allow_html=True)
 col1,col2,col3=st.columns(3)
